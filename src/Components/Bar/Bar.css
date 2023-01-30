@@ -1,0 +1,15 @@
+.Bar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.bars div{
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bars div:hover{
+    opacity: 0.6;
+}

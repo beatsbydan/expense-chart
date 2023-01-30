@@ -1,0 +1,147 @@
+.Chart{
+    width: 90%;
+    max-width: 400px;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    margin: auto;
+}
+.myBalance{
+    border-radius: 15px;
+    padding: 15px 5%;
+    background-color: var(--Soft-red);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 50px;
+}
+.expenseChart{
+    padding: 20px 5% 40px 5%;
+    border-radius: 15px;
+    background-color: var(--Very-pale-orange);
+}
+small{
+    font-size: 0.8rem;
+}
+h1{
+    font-size: 1.4rem;
+}
+.left small, .left p{
+    color: var(--Very-pale-orange);
+}
+.left p{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+.totalLeft p{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.totalLeft small{
+    color:var(--Medium-brown);
+}
+.percent{
+    color: black;
+    font-weight: 700;
+}
+.totalRight:nth-child(2){
+    color: var(--Medium-brown);
+}
+.total{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding-top: 30px;
+}
+.totalLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.totalRight{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+}
+.chart{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 45px 0 30px 0;
+    border-bottom: 1px solid var(--Medium-brown);
+}
+.bars{
+    width: 100%;
+    max-width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+}
+.bars small{
+    color: var(--Medium-brown);
+}
+.block{
+    width: inherit;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.block:hover{
+    opacity: 0.6;
+}
+.mon{
+    height: 35px;
+    background-color: var(--Soft-red);
+}
+.tue{
+    height: 65px;
+    background-color: var(--Soft-red);
+}
+.wed{
+    height: 100px;
+    background-color: var(--Cyan);
+}
+.thu{
+    height: 55px;
+    background-color: var(--Soft-red);
+}
+.fri{
+    height:45px ;
+    background-color: var(--Soft-red);
+}
+.sat{
+    height: 90px;
+    background-color: var(--Soft-red);
+}
+.sun{
+    height: 50px;
+    background-color: var(--Soft-red);
+}
+.black{
+    background-color: black;
+    width: inherit;
+    height: 30px;
+}
+@media screen and (max-width:400px) {
+    .bars{
+        max-width: 30px;
+    }
+}
+@media screen and (max-width:270px){
+    .bars{
+        max-width: 25px;
+    }
+}
